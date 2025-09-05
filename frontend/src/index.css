@@ -1,0 +1,13 @@
+textarea {
+  resize: none; /* disables resizing */
+}
+html,
+body,ul,section,div,textarea{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar, ul::-webkit-scrollbar,section::-webkit-scrollbar,div::-webkit-scrollbar,textarea::-webkit-scrollbar{
+  display: none;             /* Chrome, Safari, Opera */
+}
